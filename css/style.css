@@ -213,3 +213,57 @@ template {
 }
 
   /* End of Normalize CSS Reset */
+
+body {
+    background-color: #1f2937;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 1 auto;
+    width: 75vw;
+}
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: flex-end;
+    align-items: center;
+    height: 72px;
+    flex: 0 0 auto;
+    width: 100%;
+    gap: 16px;
+}
+.hero {
+    font-size: 48px;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F9FAF8;
+}
+#logo {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 1000;
+    color: #F9FAF8;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline #E5E7EB;
+    box-shadow: 5px 5px lightskyblue;
+    border-radius: 10px;
+}
+.navbar a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+}
